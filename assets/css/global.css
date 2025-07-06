@@ -1,23 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gabarito', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: aliceblue;
 }
 
 .content {
     padding: 1rem;
-    background-color: white;
+    background-color: aliceblue;
     width: 100vw;
     height: 100vh;
 }
 
+.content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #7d99d1;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0 auto 2rem auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 @media screen and (min-width: 992px) {
+    body {
+        background-color: #7d99d1;
+    }
+
     .content {
+        background-color: aliceblue;
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
